@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        
+        
+        var pics = new Array("photo/pic1.jpg","photo/pic2.jpg","photo/pic3.jpg","photo/pic4.jpg","photo/pic15.jpg","photo/pic6.jpg","photo/pic7.jpg","photo/pic8.jpg");
+        document.getElementById("pic").innerHTML  = "<img src='"+ pics[1] +"'>";
+        function show(id){
+         parts = id.split("_");
+         document.getElementById("pic").innerHTML  = "<img src='"+ pics[parts[1]] +"'>";
+         
+         var name = ["iPhon 13 promax","MaxBookPro","Mac","Iron","Watch","Nike shoe","TOYOTA","Farahry"];
+         var price = ["$1000","$500","$500","$50","$80","$30","$7000","$8000"];
+         var description= ["iPhon 13 promax it has 6GB RAM and 256GB memory and it has 48MP camra",
+                            "MaxBooPro is a very powrfull computer it has 16GB RAM and 1000SSD Hardkisk and also it is good resolation",
+                            "MakBook Pro very power full computer","this is a very good iron it need very lattle power",
+                            "Turkish watch is very nice and gread watch it has a powerfull bottry and you and use it as mobile ",
+                            "nike shoe is very good shoe it has higer cuialtity","powerfull and expensive care it's speed is 600km/h","power full care it is appropriate for wealty peple"];
+         
+         for(var i=0;i<name.length;i++)
+        {
+            document.getElementById("name").innerHTML = name[parts[1]],description[parts[1]];
+            document.getElementById("description").innerHTML = description[parts[1]];  
+            document.getElementById("price").innerHTML = price[parts[1]];
+        }
+
+        
+
+             }
+        </script>
+
+    <meta name="description" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Electronics, Cars, Fashion</title>
+</head>
+<body onload="show();">
+    <div class="container" style="width: 100%; heigth: 100%;">
+         <div class="top-header">
+
+             <div class="left"> 
+                    <a class="daily" href="#">Daily Deals</a>
+                    <a class="help
+                    " href="#">help & contect</a>
+                
+            </div>
+            <div class="right">
+            
+              
+                <a class="to" href="#"> Ship to</a>
+                <select class="Watchlist" name="watchlist" id="">
+                    <option  value="Watchlist">Watchlist</option>
+                </select>
+                <select class="eBay" name="my eBay" id="">
+                    <option  value="my eBay">My Ploranzai</option>
+                </select>
+                <img class="zang" src="./picture/zang.PNG" alt=""> 
+                <img  class="sabad" src="./picture/sabad.PNG" alt="">
+                
+         </div> 
+            
+            
+         </div>
+         <div class="header">
+                <div class="logo">
+                    <h1 class="plo" >plo</h1>
+                    <h1 class="ran" >ran</h1>
+                    <h1 class="zai">zai</h1>    
+                </div>
+            <select class="Shop" name="select" id="">
+
+                <option value="Shop By Category"> Shop By Category</option>
+            </select>     
+            
+            <form action="" name="search">
+                <input class="search" type="search" placeholder="Search for anything">
+                <select class="Category" name="Category" id="">
+                    <option value="Category">All Categories</option>
+                </select>
+                <input class="button" type="button" value="Search">
+            </form>
+            <a href="#">Advance</a>
+
+
+         </div>
+
+            </div>
+         </div>
+         <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li> <a href="#">Saved </a></li>
+                <li><a href="#">Electronics </a></li>
+                <li><a href="#">Fashion </a></li>
+                <li><a href="#">Sports </a></li>                
+                <li><a href="#">Motors </a></li>
+                <li><a href="#">Deals </a></li>
+            </ul>
+         </div>
+         <div class="Gif">
+            <div class="sell">
+                <h2>
+                <a href="#">Registration</a> 
+                or
+                <a href="#">Login</a>
+            </h2>
+
+            <a href="#"><div >Sell</div></a>
+            <a href="#"> <div> Buy</div></a>
+
+            </div>
+         
+            <div id="pic" class="picture">
+
+                <img src="./photo/pic6.jpg" alt="">
+            </div>
+            <div  class="information" >
+               <h5> Name:</h5>
+                <div id="name" class="name"></div>
+              <h5>  Description: </h5>
+                <div id="description" class="description"> </div>
+                <h5>Price:</h5>
+                <div id="price" class="price"></div>               
+            </div>
+            <div  class="choice">
+                <script type="text/javascript"> 
+                    for(x in pics){
+                        document.write("<img id='pic_" + x +"'onclick='show(this.id);' src='"+ pics[x] +"'> ")
+                    }
+                </script>
+            </div>
+         </div>
+  
+<!-- Footer--------------------------------------------------->
+
+    <div class="category">
+         <h1>Categories</h1>  
+
+                 <a href="#">  <div id="Phone_categor" class="sub_category"> 
+                    <div>Phones</div>
+                        <img src="./photo/pic1.jpg" alt="">
+                            </div></a>
+        <a href="#">
+            <div id="Computer_category" class="sub_category">
+                <div>Coputers</div>
+                    <img src="./photo/pic2.jpg" alt="">
+                        </div></a>
+        <a href="#"> <div id="transport_category" class="sub_category">
+            <div>Transport</div>
+                <img src="./photo/pic7.jpg" alt="">
+                    </div></a>
+        <a href="#"><div id="Electronic_category" class="sub_category">
+                <div>Electronics</div>
+                    <img src="./photo/pic5.jpg" alt="">
+                        </div></a>
+         </div>
+        <div class="footer" >
+
+            <!-- Footer-------------------------------------------------->
+
+            <table  >
+                <tr>
+                    <th ><a class="buy" href="#"> Buy</a></th>
+                    <th><a href="#">Sell</a></th>
+                    <th><a class="stay" href="#">Stay Connected</a> </th>
+                    <th><a class="about" href="#"> About Ploranzai </a></th>
+                    <th><a class="help" href="#"> Help & Contact </a></th>
+                </tr>
+                <tr>
+                    <td><a href="#"> Registration </a></td>
+                    <td><a href="#"> Start Selling </a></td>
+                    <td><a href="#"> Ploranzai's Blogs </a></td>
+                    <td><a href="#"> Company info </a></td>
+                    <td><a href="#"> Seller Information Center </a></td>
+                </tr>
+                <tr>
+                    <td><a href="#"> Ploranzai Money Back Guarantee </a></td>
+                    <td><a href="#"> Learn to sell </a></td>
+                    <td><a href="#"> Facebook </a></td>
+                    <td><a href="#"> News </a></td>
+                    <td><a href="#"> Contact us </a></td>
+                </tr>
+                <tr>
+                    <td><a href="#"> Bidding & buying help </a></td>
+                    <td><a href="#"> Affiliates </a></td>
+                    <td><a href="#"> Twitter </a></td>
+                    <td colspan="2"><a href="#"> Investors </a></td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="3"><a href="#"> Stores </a></td>
+                    <td><a href="#"> Careers </a></td>
+                    <th><a class="community" href="#"> Community </a></th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <th><a class="tools" href="#"> Tools & apps </a></th>
+                    <td></td>
+                    <td><a href="#"> Government relations </a></td>
+                    <td><a href="#"> Announcements </a></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="2"><a href="#"> Developers </a></td>
+                    <td><a href="#"> Advertise with us </a></td>
+                    <td ><a href="#"> Discussion boards </a></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="2"><a href="#"> Security center </a></td>
+                    <td><a href="#"> Policies </a></td>
+                    <td><a href="#"> Proranzai Giving Works </a></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="2"><a href="#"> Site map </a></td>
+                    <td><a href="#"> Verified Rights Owner (VeRO) Program </a></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>

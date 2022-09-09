@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+
+.top-header{
+    width: 100%;
+    height: 30px;
+    //border-bottom: 1px solid lightgray;
+    background-color: wheat;
+}
+
+.top-header .right{
+    width: 400px;
+    height: 30px;
+    float: right;
+    margin-right: 40px;
+    
+}
+
+.top-header .right .sabad{
+    float: right;
+    margin-right: 14px;
+    margin-top: 2px;
+}
+
+.top-header .right .zang{
+    float: left;
+    margin-left: 5px;
+}
+
+.top-header .right select.eBay {
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.top-header .right .Watchlist{
+    float: left;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.top-header .right .to{
+    float: left;
+    margin-left: 40px;
+    margin-top: 6px;
+    border: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.top-header .right .to:hover{
+    color:blue;
+}
+
+
+.top-header .right .ship{
+    float: left;
+    margin-left: 70;
+}
+
+
+
+
+
+.top-header .left{
+    margin-left: 45px;
+    font-size: 14px;
+    float: left;
+    margin-top: 7px;
+    
+}
+.top-header .left .daily{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.top-header .left .daily:hover{
+    
+    text-decoration: underline;
+}
+
+.top-header .left .help{
+
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.top-header .left .help:hover{
+    text-decoration: underline;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: wheat;
+}
+
+.header .logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.header .logo h1{
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font: bold;
+}
+.header .logo .plo{
+    color: black;
+}
+.header .logo .ran{
+    color: red;
+}
+.header .logo .zai{
+    color: #0B0;
+}
+
+ 
+.header select.Shop{
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.header select.Shop:hover{
+    color:blue;
+}
+
+.header form .search{
+    width: 300px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-right: 0px solid gray;
+    padding-left: 8px;
+}
+.header .Category{
+    height: 40px;
+    color: gray;
+   // border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header form .button{
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #909090;
+    border: 1px;
+    font-size: 16px;
+}
+.header form .button:hover{
+    background-color: gray;
+}
+
+.header form .button:hover{
+    background-color: hsla(0, 0%, 50%, 0.815);
+    font-size: 13px;
+}
+.header form{
+    float: left;
+}
+
+.header a{
+    float: left;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    color:gray;
+}
+
+.header a:hover{
+    coler:black;
+    font-size: 17px;
+}
+/*   Menu design ===================================================== */
+.menu{
+    width: 100%;
+    height: 33px;
+    border-bottom: 1px solid lightgray;
+    padding-top: 7px;
+    background-color: wheat;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.menu ul{
+    
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+}
+
+.menu ul li{
+    display: inline;
+    padding-left: 35px;
+    border: 1px solid gray;          ;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    text-align: center;
+    
+}
+
+.menu ul li:hover{
+    background-color: #80808A;   
+}
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 23px;
+    
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+
+.Gif{
+    margin: 1px;
+   // border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+}
+.Gif div.sell{
+    float: right;
+    background-color: wheat;
+    width: 25%;
+    height: 80%;
+}
+.Gif .sell h2 a{
+    color: blue;
+}
+
+
+.Gif .sell h2 a:hover{
+    text-decoration: underline;
+}
+
+.Gif .sell h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.Gif .sell a{   
+    color: white;
+}
+
+.Gif .sell div{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80%;
+    background-color: gray;
+    height: 50px;
+    border: 1px solid black;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.Gif .sell a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.Gif .sell a div{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+.Gif .sell div:hover{
+    width: 81%;
+    background-color: #80808A;
+    
+}
+
+
+
+.Gif .picture{
+    float: right;
+    width: 50%;
+    height: 80%;
+    background-color: gray;
+    //border: 1px solid black;
+}
+.Gif div#pic img{
+    width: 100%;
+    height: 100%;
+}
+.Gif .information{
+    float: left;
+    width: 25%;
+    height: 80%;
+    background-color: wheat;
+}
+.Gif .information
+{
+    color: blue;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.Gif .information h5{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+  //  background-color: white;
+    color: black;
+    border-radius: 13px;
+}
+.Gif .choice{
+    float: right;
+    width: 100%;
+    height: 30%;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.Gif .choice img{
+    float: left;
+    height: 95%;
+    width: 11.66%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+div.category {
+    padding-top: 50px;
+    width: 100%;
+    height: 510px;
+   // border: 5px solid indigo;
+    background-color: wheat;
+}
+div.category h1{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 70px;
+    color: black;  
+}
+
+div.category a div:hover{ 
+    color: blue;
+}
+
+.category .sub_category{
+    float: left;
+    width: 24.3%;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 350px;
+  //  background-color: #00A;
+    margin-top: 4px;
+    //border: 5px solid indigo;
+    border-top-right-radius: 50px;
+}
+.category .sub_category div{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    height: 60px;
+    background-color: grey;
+    border-top-right-radius: 50px;
+}
+
+ .category .sub_category img{
+    width: 100%;
+    height: 84%;
+ }
+
+/* footer ----------------------------------*/
+.footer{
+    margin-top: 4px;
+    width: 100%;
+    height: 430px;
+    float: left;
+    background-color: cadetblue;
+}
+
+.footer table
+{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer table tr td a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+.footer table tr td{
+    padding-top: 15px;
+
+}
+
+.footer table tr td a:hover{
+    color: blue;
+}
+
+.footer table tr th a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer table tr th a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.footer table tr th a.buy{
+    margin-right: 110px;
+    
+}
+
+.footer table tr th a.stay{
+    margin-left: 50px;
+}
+
+.footer table tr th a.about{
+    margin-right: 135px;
+}
+
+.footer table tr th a.tools{
+    margin-left: 48px;
+}
+
+.footer table tr th a.community{
+    margin-right: 45px;
+}
+.footer table tr th a.eBay{
+    margin-right: 160px;
+}
+
